@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section{
+  min-height: 100vh;
+  background-image: url("https://unsplash.it/600/400/?random");
+  display: flex;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+div{
+  padding: 30px;
+  background-color: grey;
+  border-radius: 5px;
+}
+h1, h2, p{
+  color: #ddd;
+}
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+}
+
+p{
+  font-size: 1.5rem;
+}
+
+span{
+  background-color: #ddd;
+  color: #111;
+  padding: 8px;
+  border-radius: 2px;
+  display: inline-block;
+  margin: 3px;
+}
