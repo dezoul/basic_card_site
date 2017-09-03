@@ -36,7 +36,8 @@ fields:
 - name: ''
   type: field_group
   fields:
-  - name: image
+  - name: back_path
     type: file
     description: image
-    label: image
+    label: background
+    default: "/uploads/2017/09/03/temp.jpg"
