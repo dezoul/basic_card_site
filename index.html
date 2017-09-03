@@ -8,6 +8,7 @@ extra-info:
   - icon: facebook
     text: 'https://www.facebook.com/daniel.swinkels.35'
 test:
+back_path: https://unsplash.it/200/300/?random
 ---
 
 
@@ -18,7 +19,7 @@ test:
   <link rel="stylesheet" href="css/style.css" />
 
 </head>
-<body>
+<body style="background-image:url('{{page.back_path}}')">
   <section>
   <div>
     <h1>{{page.title}}</h1>
