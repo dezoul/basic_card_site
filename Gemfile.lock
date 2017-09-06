@@ -45,8 +45,8 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  bundler (= 1.15.4)
+  bundler (= 1.15.3)
   jekyll
 
 BUNDLED WITH
-   1.15.4
+   1.15.3
