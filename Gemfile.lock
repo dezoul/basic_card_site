@@ -45,9 +45,8 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  bundler (= 1.15.3)
+  bundler
   jekyll
-  public_suffix (= 3.0.0)
 
 BUNDLED WITH
    1.15.3
