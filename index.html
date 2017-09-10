@@ -1,4 +1,13 @@
 ---
+'':
+  '0': a
+  '1': r
+  '2': r
+  '3': o
+  '4': w
+  back_path: "/uploads/2017/09/03/temp.jpg"
+back_path:
+  back_path: "/uploads/2017/09/10/Screenshot (46).png"
 extra-info:
 - icon: envelope-o
   text: aussieme@gmail.com
@@ -8,7 +17,6 @@ extra-info:
   text: https://www.facebook.com/daniel.swinkels.35
 test: tests
 title: Daniel Swinkels
-back_path: "/uploads/2017/09/03/temp.jpg"
 ---
 
 
@@ -20,7 +28,7 @@ back_path: "/uploads/2017/09/03/temp.jpg"
 
 </head>
 <body>
-  <section style="background-image:url('{{page.back_path}}');">
+  <section>
   <div>
     <h1>{{page.title}}</h1>
     <h2 class="editable">Master of the buisness</h2>
@@ -31,6 +39,6 @@ back_path: "/uploads/2017/09/03/temp.jpg"
     {% endfor %}
   </div>
 
-    <img src="{{page.test_url}}" alt="">{{page.test}}
+  {{page.test}}
 </section>
 </body></html></doctype>
