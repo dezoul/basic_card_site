@@ -19,12 +19,6 @@ fields:
     default: ''
   hidden: false
   default: ''
-- name: back_path
-  type: field_group
-  fields:
-  - name: back_path
-    type: file
-    description: image
-    label: background
-    default: "/uploads/2017/09/03/temp.jpg"
-  label: background
+- type: file
+  name: back_path
+  label: background image
